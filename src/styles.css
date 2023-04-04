@@ -1,0 +1,65 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  border: 1px solid pink;
+  height: 500px;
+}
+@media (max-width: 500px) {
+  .mobilephone {
+    display: block;
+    background-color: red;
+    text-align: center;
+    border: 2px solid green;
+    border-radius: 10px;
+  }
+}
+.mobilephone {
+  padding: 20px;
+  margin: 20px;
+}
+@media (min-width: 501px) and (max-width: 700px) {
+  .tablet {
+    display: block;
+    background-color: green;
+    text-align: center;
+    border: 2px solid yellow;
+    border-radius: 10px;
+  }
+}
+.tablet {
+  padding: 20px;
+  margin: 20px;
+}
+h2 {
+  background-color: yellow;
+  border-radius: 10px;
+  color: whitesmoke;
+  padding: 20px;
+}
+
+@media (min-width: 701px) and (max-width: 1000px) {
+  .desktop {
+    display: block;
+    background-color: yellow;
+    text-align: center;
+    border: 2px solid green;
+    border-radius: 10px;
+  }
+  .desktop {
+    padding: 20px;
+    margin: 20px;
+  }
+}
+.webscreen {
+  padding: 20px;
+  margin: 20px;
+}
+@media (min-width: 1001px) {
+  .webscreen {
+    display: block;
+    background-color: blue;
+    text-align: center;
+    border: 2px solid skyblue;
+    border-radius: 10px;
+  }
+}
